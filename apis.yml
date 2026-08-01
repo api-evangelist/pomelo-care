@@ -1,8 +1,30 @@
 aid: pomelo-care
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/pomelo-care.png
 name: Pomelo Care
-description: Pomelo Care is a company surfaced as a portfolio company of a16z, first-round-capital and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Pomelo Care is a value-based virtual healthcare company delivering 24/7
+  clinician-led care for women and children across fertility and preconception,
+  prenatal and postpartum, pediatric and NICU, and midlife and menopause health.
+  Operating as a telehealth platform contracted with employers and health plans,
+  Pomelo pairs licensed clinicians, doulas, and care teams with remote monitoring
+  to close the gaps between doctor visits, reduce NICU admissions, and improve
+  maternal and infant outcomes. The company reports covering 25 million lives
+  across all 50 states and raised a $92M Series C at a $1.7B valuation. Pomelo
+  Care is a patient-, employer-, and payer-facing platform and does not currently
+  publish a public developer API, SDK, or developer portal; it was surfaced as a
+  portfolio company of a16z and First Round Capital and profiled in the API
+  Evangelist network for company-level discovery and monitoring.
 url: https://raw.githubusercontent.com/api-evangelist/pomelo-care/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,9 +35,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Healthcare
+- Telehealth
+- Maternity
+- Pediatrics
+- Women's Health
+- Virtual Care
+- Value-Based Care
+- Digital Health
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +55,24 @@ maintainers:
 common:
 - type: Website
   url: https://www.pomelocare.com
+- type: Blog
+  url: https://www.pomelocare.com/news
+- type: PrivacyPolicy
+  url: https://www.pomelocare.com/privacy-policy
+- type: TermsOfService
+  url: https://www.pomelocare.com/terms-of-service
+- type: SecurityTxt
+  url: https://www.pomelocare.com/.well-known/security.txt
+- type: WellKnown
+  url: well-known/pomelo-care-well-known.yml
+- type: VulnerabilityDisclosure
+  url: security/pomelo-care-vulnerability-disclosure.yml
+- type: Security
+  url: https://www.pomelocare.com/.well-known/security.txt
+- type: DomainSecurity
+  url: security/pomelo-care-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 4
+  pass: local-v1

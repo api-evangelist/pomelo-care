@@ -1,0 +1,15 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Contact: mailto:security@pomelocare.com
+Expires: 2028-01-01T05:00:00.000Z
+Encryption: https://www.pomelocare.com/.well-known/pgp-key.txt
+Preferred-Languages: en
+Canonical: https://www.pomelocare.com/.well-known/security.txt
+-----BEGIN PGP SIGNATURE-----
+
+iHUEARYKAB0WIQQlnBl/EqOPBwGvW6Vta8m4uT+iuwUCaWeiJQAKCRBta8m4uT+i
+u7jtAQCS8dMAWSCl0Asmk+O+23UYH2M5leagAOSpsDPuWtNbOQEAhri6jlLQhB/3
+Ko5oKIgb2G7zziZBY5S1BiXApj9SGQ4=
+=xNNX
+-----END PGP SIGNATURE-----
